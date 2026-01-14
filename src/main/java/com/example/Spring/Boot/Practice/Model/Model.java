@@ -14,7 +14,7 @@ public class Model {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o)  {
         if (o == null || getClass() != o.getClass()) return false;
         Model model = (Model) o;
         return Objects.equals(message, model.message) && Objects.equals(status, model.status);

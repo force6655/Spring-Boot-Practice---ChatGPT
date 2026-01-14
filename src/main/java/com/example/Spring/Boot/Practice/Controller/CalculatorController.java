@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/calculator")
+@RequestMapping ("/api/calculator")
 public class CalculatorController {
 
     private final CalculatorService calculatorService;

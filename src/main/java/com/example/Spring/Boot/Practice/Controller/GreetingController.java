@@ -21,7 +21,7 @@ public class GreetingController {
         return new Model(greetingService.hello(name), "success");
     }
 
-    @GetMapping ("/hello/{name}")
+    @GetMapping  ("/hello/{name}")
     public Model sayHello(@PathVariable String name) {
         return new Model(greetingService.hello(name), "success");
     }
