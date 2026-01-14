@@ -3,7 +3,7 @@ package com.example.Spring.Boot.Practice.Model;
 import java.util.Objects;
 
 public class Model {
-    //variable
+    //variable of return API
     private String message;
     private String status;
 
