@@ -15,6 +15,7 @@ public class GreetingServiceImpl implements GreetingService {
 
     @Override
     public String goodbye(String name){
+        System.out.println("TEST");
         if (name == null || name.isBlank()) {
             throw new BadRequestException("Name cannot be empty");
         }
