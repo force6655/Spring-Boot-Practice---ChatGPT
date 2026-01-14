@@ -8,7 +8,7 @@ public interface CalculatorService {
 
     int multiply(int numA, int numB);
 
-    int divide(int numA, int numB);  // 注意：除以 0 要丟例外
+    int divide(int numA, int numB);  //  注意：除以 0 要丟例外
 }
 
 
